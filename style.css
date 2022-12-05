@@ -140,9 +140,44 @@ form fieldset {
   line-height: 34px;
 
   margin: 32px 0 8px;
+
   color: #535971;
 }
 
 .ajust-padding {
   padding: 0;
+}
+
+.mentor-schedules {
+  display: grid;
+  grid-template-columns: 300px auto;
+  gap: 32px;
+}
+
+.mentoring-hours {
+  display: flex;
+  gap: 10px;
+}
+
+fieldset div .h2-second {
+  margin: 16px 0 8px;
+}
+
+footer {
+  padding: 52px 71px;
+  background-color: #535971;
+}
+
+footer button {
+  background-color: #FF5374;
+
+  font-family: 'Staatliches';
+  font-size: 20px;
+  line-height: 26px;
+  color: #FFFFFF;
+
+  padding: 14px 279px;
+
+  border: none;
+  border-radius: 0px 0px 20px
 }

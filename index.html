@@ -16,7 +16,7 @@
       <h1>MENTORIA</h1>
       <p>Preencha o formulário abaixo para <br> agendar a sua mentoria</p>
     </header>
-    <form action="">
+    <form id="form" action="">
       <fieldset>
         <div class="fildset-wrapper">
           <legend>INFORMAÇÕES PESSOAIS</legend>
@@ -53,19 +53,45 @@
         <div class="fildset-wrapper">
           <legend>SEUS HORÁRIOS DISPONÍVEIS</legend>
           <h2>PRIMEIRA MENTORIA</h2>
-          <div class="people-name">
+          <div class="mentor-schedules">
             <div class="input-wrapper ajust-padding">
-              <label for="people-name">Nome</label>
-              <input type="text" name="" id="people-name">
+              <label for="first-date">Data</label>
+              <input type="date" name="" id="first-date">
             </div>
+            <div class="mentoring-hours">
+              <div class="input-wrapper ajust-padding">
+                <label for="first-date-start-time">Das</label>
+                <input type="time" name="" id="first-date-time">
+              </div>
+              <div class="input-wrapper ajust-padding">
+                <label for="first-date-end-time">Até</label>
+                <input type="time" name="" id="first-date-end-time">
+              </div>
+            </div>
+          </div>
+          <h2 class="h2-second">SEGUNDA MENTORIA</h2>
+          <div class="mentor-schedules">
             <div class="input-wrapper ajust-padding">
-              <label for="people-lastname">Sobrenome</label>
-              <input type="text" name="" id="people-lastname">
+              <label for="first-date">Data</label>
+              <input type="date" name="" id="first-date">
+            </div>
+            <div class="mentoring-hours">
+              <div class="input-wrapper ajust-padding">
+                <label for="first-date-start-time">Das</label>
+                <input type="time" name="" id="first-date-time">
+              </div>
+              <div class="input-wrapper ajust-padding">
+                <label for="first-date-end-time">Até</label>
+                <input type="time" name="" id="first-date-end-time">
+              </div>
             </div>
           </div>
         </div>
       </fieldset>
   </form>
+  <footer>
+    <button type="submit" form="form" value="Salvar">SALVAR</button>
+  </footer>
   </div>
 </body>
 </html>
