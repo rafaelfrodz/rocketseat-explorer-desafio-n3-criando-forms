@@ -5,7 +5,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>MENTORIA</title>
+  <title>Agenda a sua mentoria</title>
   
   <link rel="stylesheet" href="style.css">
   <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Staatliches&display=swap" rel="stylesheet">
@@ -23,20 +23,20 @@
           <div class="people-name">          
             <div class="input-wrapper">
               <label for="people-name">Nome</label>
-              <input type="text" name="" id="people-name">
+              <input required type="text" name="" id="people-name">
             </div>
             <div class="input-wrapper">
               <label for="people-lastname">Sobrenome</label>
-              <input type="text" name="" id="people-lastname">
+              <input required type="text" name="" id="people-lastname">
             </div>
           </div>
           <div class="input-wrapper">
             <label for="people-email">Email <span>(digite um email válido)</span></label>
-            <input type="email" name="" id="people-email">
+            <input required type="email" name="" id="people-email">
           </div>
           <div class="input-wrapper">
             <label for="people-password">Senha <span>(mínimo de 6 caracteres)</span></label>
-            <input type="password" name="" id="people-password">
+            <input minlength="6" required type="password" name="" id="people-password">
           </div>
         </div>
       </fieldset>
@@ -45,7 +45,7 @@
           <legend>INFORMAÇÕES DO MENTOR</legend>
           <div class="input-wrapper">
             <label for="mentor-name">Nome do seu mentor <span>(só o primeiro nome)</span></label>
-            <input type="text" name="" id="mentor-name">
+            <input required type="text" name="" id="mentor-name">
           </div>
         </div>
       </fieldset>
@@ -55,24 +55,24 @@
           <h2>PRIMEIRA MENTORIA</h2>
           <div class="mentor-schedules">
             <div class="input-wrapper ajust-padding">
-              <label for="first-date">Data</label>
-              <input type="date" name="" id="first-date">
+              <label for="first-date">Data <span>(DD/MM/AAAA)</span></label>
+              <input required type="date" name="" id="first-date">
             </div>
             <div class="mentoring-hours">
               <div class="input-wrapper ajust-padding">
                 <label for="first-date-start-time">Das</label>
-                <input type="time" name="" id="first-date-time">
+                <input required type="time" name="" id="first-date-time">
               </div>
               <div class="input-wrapper ajust-padding">
                 <label for="first-date-end-time">Até</label>
-                <input type="time" name="" id="first-date-end-time">
+                <input required type="time" name="" id="first-date-end-time">
               </div>
             </div>
           </div>
           <h2 class="h2-second">SEGUNDA MENTORIA</h2>
           <div class="mentor-schedules">
             <div class="input-wrapper ajust-padding">
-              <label for="first-date">Data</label>
+              <label for="first-date">Data <span>(DD/MM/AAAA)</span></label>
               <input type="date" name="" id="first-date">
             </div>
             <div class="mentoring-hours">
