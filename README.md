@@ -2,8 +2,7 @@
 
 # Sobre o desafio
 
-E aí, curtiu aprender mais sobre formulários? 👀
-Bora colocar em prática tudo o que foi visto nessa primeira fase? 😍
+Desenvolver um fórmulario em uma página web do zero, aplicando todos os conceitos aprendidos nas aulas, e claro, deixar a página com acessibilidade. 
 
 # Figma da aplicação
 
