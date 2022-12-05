@@ -15,7 +15,7 @@ Rever e aplicar os novos conceitos aprendidos nas aulas.
 ## Screenshot do projeto
 <img alt="screenshot da página web da aplicação" src="https://i.imgur.com/NkEQ7AS.png">
 
-[Clique aqui para acessar a página](https://rafaelfrodz.github.io/rocketseat-explorer-desafio01/)
+[Clique aqui para acessar a página](https://rafaelfrodz.github.io/rocketseat-explorer-desafio-n3-criando-forms/)
 
 ## 🚀 Tecnologias e Ferramentas Utilizadas
 
